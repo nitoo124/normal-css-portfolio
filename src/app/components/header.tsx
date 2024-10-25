@@ -20,7 +20,7 @@ function Header() {
         <div className='flex justify-between py-4  bg-white '>
             {/* logo */}
               <div className='ml-12'>
-                <h2 className='font-bold text-3xl'><span className='text-purple-700'>N</span>itoo.</h2>
+                <h2 className='font-bold text-3xl text-black'><span className='text-purple-700'>N</span>itoo.</h2>
               </div>
               {/* navbar */}
               <nav className='hidden md:block mr-12  text-lg font-semibold '>
@@ -32,7 +32,7 @@ function Header() {
               </nav>
                
                {/* mob button */}
-               <button className='md:hidden mr-5' onClick={ToggleMenu}> {OpenMenu ? <IoClose size={30}/>:<AiOutlineMenuUnfold size={30}/>}</button>
+               <button className='md:hidden mr-5' onClick={ToggleMenu}> {OpenMenu ? <IoClose className='text-black' size={30}/>:<AiOutlineMenuUnfold className='text-black' size={30}/>}</button>
         
         </div>
 
