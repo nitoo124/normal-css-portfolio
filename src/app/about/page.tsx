@@ -3,7 +3,7 @@ import About from '../components/about'
 
 function AboutPage() {
   return (
-    <main>
+    <main className='h-full flex items-center'>
       <About/>
     </main>
   )

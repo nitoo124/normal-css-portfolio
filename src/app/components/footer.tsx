@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 
 function Footer() {
     return (
-        <footer className='bg-purple-700 p-12  text-white'>
+        <footer className='bg-purple-700 p-12  text-white mt-12'>
            
            <main className='  flex md:flex-row flex-col md:justify-between  items-center '>
             {/* section1 for content */}

@@ -24,7 +24,7 @@ function Header() {
               </div>
               {/* navbar */}
               <nav className='hidden md:block mr-12  text-lg font-semibold '>
-                <ul className='flex gap-12'>
+                <ul className='flex gap-12 text-black'>
                     <Link href='/'><li className='hover:bg-purple-700 p-2 hover:text-white rounded-lg'>Home</li></Link>
                     <Link href='/about'><li className='hover:bg-purple-700 p-2 hover:text-white rounded-lg'>About</li></Link>
                     <Link href='/contact'><li className='hover:bg-purple-700 p-2 hover:text-white rounded-lg'>Contact</li></Link>

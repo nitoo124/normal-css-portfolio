@@ -3,7 +3,7 @@ import Contact from '../components/contact'
 
 function Contactpage() {
   return (
-    <main className='h-screen'>
+    <main className='h-screen flex items-center'>
       <Contact/>
     </main>
   )
