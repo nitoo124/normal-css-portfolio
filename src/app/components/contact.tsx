@@ -8,16 +8,16 @@ function Contact() {
    <form action="" className=' w- mx-auto p-8'>
     <div className=''>
         <label className='block mt-2 font-semibold text-sm' >Username: </label>
-        <input className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg bg-gray  ' type="text" placeholder='Enter your name' />
+        <input className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg  text-black  ' type="text" placeholder='Enter your name' />
     </div>
     <div>
         <label className='block mt-2 font-semibold text-sm' >Email: </label>
-        <input className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg  ' type="email" placeholder='Enter your email' />
+        <input className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg  text-black ' type="email" placeholder='Enter your email' />
     </div>
 
     <div>
         <label className='block mt-2 font-semibold text-sm' >Message: </label>
-        <textarea className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg ' name="text" id="" placeholder='Enter your message'></textarea>
+        <textarea className='shadow-3xl mt-1 p-2 w-[100%] rounded-lg text-black ' name="text" id="" placeholder='Enter your message'></textarea>
     </div>
 
     <div className='text-center mt-5'>
