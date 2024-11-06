@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function About() {
     return (
-        <main className='flex lg:flex-row flex-col justify-between items-center h-full mt-12 pb-12 '>
+        <main className='  flex lg:flex-row flex-col justify-between items-center h-full mt-12 pb-12 '>
 
             {/* image section */}
             <section className='p-8'>
